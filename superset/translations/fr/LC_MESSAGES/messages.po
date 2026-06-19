@@ -632,7 +632,7 @@ msgid "10 seconds"
 msgstr "10 secondes"
 
 msgid "10/90 percentiles"
-msgstr "10/90 percentiles"
+msgstr "10/90 centiles"
 
 msgid "10000"
 msgstr "10 000"
@@ -740,7 +740,7 @@ msgid "5 seconds"
 msgstr "5 secondes"
 
 msgid "5/95 percentiles"
-msgstr "5/95 percentiles"
+msgstr "5/95 centiles"
 
 msgid "52 weeks"
 msgstr "52 semaines"
@@ -785,7 +785,7 @@ msgid "<= (Smaller or equal)"
 msgstr "<= (Plus petit ou égal)"
 
 msgid "<enter SQL expression here>"
-msgstr "<entrez la requête SQL ici>"
+msgstr "<entrez une expression SQL ici>"
 
 msgid "<new column>"
 msgstr "<nouvelle colonne>"
@@ -800,13 +800,13 @@ msgid "<no type>"
 msgstr "<pas de type>"
 
 msgid "== (Is equal)"
-msgstr "== (est égal)"
+msgstr "== (Est égal)"
 
 msgid "> (Larger than)"
-msgstr "> (plus grand que)"
+msgstr "> (Plus grand que)"
 
 msgid ">= (Larger or equal)"
-msgstr ">= (plus grand ou égal)"
+msgstr ">= (Plus grand ou égal)"
 
 msgid "A Big Number"
 msgstr "Gros nombre"
@@ -830,15 +830,15 @@ msgstr ""
 " https://echarts.apache.org/en/option.html. "
 
 msgid "A comma separated list of columns that should be parsed as dates"
-msgstr "Liste de Colonnes séparée par des virgules à traiter comme des dates"
+msgstr "Une liste de colonnes séparée par des virgules à traiter comme des dates"
 
 msgid "A comma-separated list of schemas that files are allowed to upload to."
 msgstr ""
-"Une liste de schémas séparés par des virgules autorisés pour le "
-"téléchargement."
+"Une liste de schémas séparés par des virgules dans lesquels les fichiers "
+"sont téléchargeables."
 
 msgid "A database port is required when connecting via SSH Tunnel."
-msgstr "Un port de base de donnée est requis lors de la connexion en SSH."
+msgstr "Un port de base de données est requis lors de la connexion via le tunnel SSH."
 
 msgid "A database with the same name already exists."
 msgstr "Une base de données avec le même nom existe déjà."
@@ -854,20 +854,20 @@ msgid ""
 " the defaults. Example: {\"user_id\":\"int\"}. Check Python's Pandas "
 "library for supported data types."
 msgstr ""
-"Un dictionnaire avec des noms de colonne et leurs types de données si "
-"vous devez modifier les valeurs par défaut. Exemple : "
-"{\"user_id\":\"integer\"}. Renseignement disponible sur la librairie "
-"Pandas de Python pour les types de données supportés."
+"Un dictionnaire avec les noms des colonnes et leurs types de données si vous"
+" devez modifier les valeurs par défaut. Exemple : {\"user_id\":\"integer\"}. "
+"Consultez la bibliothèque Pandas de Python pour connaître les types de "
+"données pris en charge."
 
 msgid ""
 "A full URL pointing to the location of the built plugin (could be hosted "
 "on a CDN for example)"
 msgstr ""
-"Une URL complète désignant le lieu du plugiciel (pourrait être hébergé "
-"sur un CDN par exemple)"
+"Une URL complète désignant la localisation du module d'extension (pourrait "
+"être hébergé sur un CDN par exemple)"
 
 msgid "A handlebars template that is applied to the data"
-msgstr "Un modèle de Handlebars appliqué aux données"
+msgstr "Un modèle handlebars appliqué aux données"
 
 msgid "A human-friendly name"
 msgstr "Un nom facile à comprendre"
@@ -918,15 +918,14 @@ msgid ""
 "angle, and the value represented by any wedge is illustrated by its area,"
 " rather than its radius or sweep angle."
 msgstr ""
-"Un tableau de coordonnées polaires où le cercle est divisé en coins "
-"d'angle égal et où la valeur représentée par n'importe quel coin est "
-"illustrée par sa zone, plutôt que par son rayon ou son angle de balayage."
+"Un graphique de coordonnées polaires où le cercle est divisé en quartiers "
+"d'angle égal, où la valeur est représentée par sa surface, plutôt que par son rayon ou son angle de balayage."
 
 msgid "A readable URL for your dashboard"
 msgstr "Une URL lisible pour votre tableau de bord"
 
 msgid "A reference to the [Time] configuration, taking granularity into account"
-msgstr "Une référence à la configuration [Time] prends la granularité en compte"
+msgstr "Une référence à la configuration [Time] tenant compte de la granularité"
 
 #, python-format
 msgid "A report named \"%(name)s\" already exists"
@@ -939,7 +938,7 @@ msgid ""
 "A set of parameters that become available in the query using Jinja "
 "templating syntax"
 msgstr ""
-"Un ensemble de paramètre qui seront disponible dans la requête utilisant "
+"Un ensemble de paramètres qui seront disponibles dans la requête utilisant "
 "la syntaxe du modèle Jinja"
 
 msgid "A timeout occurred while executing the query."
@@ -965,7 +964,7 @@ msgid ""
 "          These intermediate values can either be time based or category "
 "based."
 msgstr ""
-"Un graphique en cascade est une forme de visualisation de donnée qui aide"
+"Un graphique en cascade est une forme de visualisation de données qui aide"
 " à comprendre\n"
 "          l'effet cumulé de valeur positive ou négative introduite "
 "séquentiellement.\n"
@@ -1000,13 +999,13 @@ msgid "APPLY"
 msgstr "APPLIQUER"
 
 msgid "APR"
-msgstr "APR"
+msgstr "AVR"
 
 msgid "AQE"
-msgstr "AQE"
+msgstr "EAR"
 
 msgid "AUG"
-msgstr "AUG"
+msgstr "AOU"
 
 msgid "Aborted"
 msgstr "Commencé"
@@ -1030,7 +1029,7 @@ msgid "Action"
 msgstr "Action"
 
 msgid "Action Log"
-msgstr "Journaux d'actions"
+msgstr "Journal des actions"
 
 msgid "Action Logs"
 msgstr "Journaux d'actions"
@@ -1144,12 +1143,12 @@ msgstr "Ajouter une autre méthode de notification"
 
 msgid "Add calculated columns to dataset in \"Edit datasource\" modal"
 msgstr ""
-"Ajouter des colonnes calculées au ensemble de données dans le modal "
+"Ajouter des colonnes calculées à l'ensemble de données dans le modal "
 "\"Modifier la source de données\""
 
 msgid "Add calculated temporal columns to dataset in \"Edit datasource\" modal"
 msgstr ""
-"Ajouter des colonnes temporelles calculées au ensemble de données dans le"
+"Ajouter des colonnes temporelles calculées à l'ensemble de données dans le"
 " modal \"Modifier la source de données\""
 
 msgid "Add certification details for this dashboard"
@@ -1173,10 +1172,10 @@ msgstr ""
 " table pivot."
 
 msgid "Add delivery method"
-msgstr "Ajouter méthode de livraison"
+msgstr "Ajouter une méthode de livraison"
 
 msgid "Add description of your tag"
-msgstr "Ecrire une description à votre tag"
+msgstr "Ajouter une description à votre tag"
 
 msgid "Add display control"
 msgstr "Configuration d'affichage"
@@ -1201,8 +1200,7 @@ msgid ""
 "                    of the underlying data or limit the available values "
 "displayed in the filter."
 msgstr ""
-"Ajouter des clauses de filtre pour contrôler la requête source du filtre,"
-"\n"
+"Ajouter des clauses de filtre pour contrôler la requête source du filtre,\n"
 "                    mais uniquement dans le contexte de la saisie semi-"
 "automatique, c'est-à-dire que ces conditions\n"
 "                     n'ont pas d'impact sur la manière dont le filtre est"
@@ -1223,7 +1221,7 @@ msgstr "Ajouter une mesure"
 
 msgid "Add metrics to dataset in \"Edit datasource\" modal"
 msgstr ""
-"Ajouter des mesures au ensemble de données dans le modal \"Modifier la "
+"Ajouter des mesures à l'ensemble de données dans le modal \"Modifier la "
 "source de données\""
 
 msgid "Add new color formatter"
@@ -1255,7 +1253,7 @@ msgid "Add sheet"
 msgstr "Ajouter une feuille"
 
 msgid "Add tag to entities"
-msgstr "Ajouter un tag à des entités"
+msgstr "Ajouter un tag aux entités"
 
 msgid "Add the name of the chart"
 msgstr "Ajouter le nom du graphique"
@@ -1294,7 +1292,7 @@ msgid "Additional fields may be required"
 msgstr "Des champs supplémentaires peuvent être requis"
 
 msgid "Additional information"
-msgstr "Informations supplémentaires"
+msgstr "Informations complémentaires"
 
 msgid "Additional padding for legend."
 msgstr "Marge supplémentaire pour la légende."
@@ -1303,7 +1301,7 @@ msgid "Additional parameters"
 msgstr "Paramètres supplémentaires"
 
 msgid "Additional settings."
-msgstr "Informations supplémentaires."
+msgstr "Réglages supplémentaires."
 
 msgid "Additional text to add before or after the value, e.g. unit"
 msgstr "Texte supplémentaire à ajouter avant ou après la valeur, p. ex. unité"
@@ -1343,7 +1341,7 @@ msgid "Advanced analytics Query B"
 msgstr "Analyses avancées Requête B"
 
 msgid "Advanced analytics post processing"
-msgstr "Analyses avancées"
+msgstr "Analyses avancées post-traitement"
 
 msgid "Advanced data type"
 msgstr "Type de données avancées"
@@ -1401,10 +1399,10 @@ msgstr ""
 "correspondre les valeurs agrégées à une échelle de couleurs dynamique"
 
 msgid "Aggregation"
-msgstr "Aggregation"
+msgstr "Agrégation"
 
 msgid "Aggregation Method"
-msgstr "Aggregation"
+msgstr "Méthode d'agrégation"
 
 msgid "Aggregation function"
 msgstr "Fonctions d'agrégation"
@@ -1413,7 +1411,7 @@ msgid "Alert"
 msgstr "Alerte"
 
 msgid "Alert Triggered, In Grace Period"
-msgstr "Alerte déclenchée, -période de grâce"
+msgstr "Alerte déclenchée, en période de grâce"
 
 msgid "Alert condition"
 msgstr "Condition d'alerte"
@@ -1440,7 +1438,7 @@ msgid "Alert name"
 msgstr "Nom de l'alerte"
 
 msgid "Alert on grace period"
-msgstr "Alerte sur la période de grace"
+msgstr "Alerte durant la période de grâce"
 
 msgid "Alert query returned a non-number value."
 msgstr "La requête d'alerte a retourné une valeur non numérique."
@@ -1521,7 +1519,7 @@ msgid "Allow DDL and DML"
 msgstr "Autoriser DDL et DML"
 
 msgid "Allow changing catalogs"
-msgstr "Autoriser le changement de catalogues"
+msgstr "Autoriser la modification des catalogues"
 
 msgid ""
 "Allow column names to be changed to case insensitive format, if supported"
@@ -1534,7 +1532,7 @@ msgid "Allow columns to be rearranged"
 msgstr "Autoriser la réorganisation des colonnes"
 
 msgid "Allow creation of new tables based on queries"
-msgstr "Autoriser la création de nouveaux tableaux basés sur des requêtes"
+msgstr "Autoriser la création de nouvelles tables basées sur des requêtes"
 
 msgid "Allow creation of new values"
 msgstr "Autoriser la création de nouvelles valeurs"
@@ -1554,7 +1552,7 @@ msgstr ""
 "persisteront pas la prochaine fois qu'ils ouvriront le tableau."
 
 msgid "Allow file uploads to database"
-msgstr "Autoriser des téléchargements de fichier vers la base de donnée"
+msgstr "Autoriser des téléversements de fichiers vers la base de donnée"
 
 msgid "Allow node selections"
 msgstr "Autoriser les sélections multiples"
@@ -1572,7 +1570,7 @@ msgid "Allow this database to be explored"
 msgstr "Autoriser cette base de données à être explorée"
 
 msgid "Allow this database to be queried in SQL Lab"
-msgstr "Autoriser cette base de données à être requêtées dans SQL Lab"
+msgstr "Autoriser cette base de données à être requêtée dans SQL Lab"
 
 msgid "Allow users to select multiple values"
 msgstr "Autorize l'utilisateur à selectionner plusieurs valeurs"
@@ -1589,15 +1587,13 @@ msgid ""
 "middle emphasizes the mean, median, and inner 2 quartiles. The whiskers "
 "around each box visualize the min, max, range, and outer 2 quartiles."
 msgstr ""
-"Également connue sous le nom de diagramme en boîte à moustaches, cette "
-"visualisation compare les distributions d'une mesure connexe au sein de "
-"plusieurs groupes. La boîte du milieu met l'accent sur la moyenne, la "
-"médiane et les deux quartiles intérieurs. Les moustaches autour de chaque"
-" boîte visualisent le minimum, le maximum, l'étendue et les deux "
-"quartiles extérieurs."
+"Également connu sous le nom de diagramme en boîte et à moustaches, ce graphique compare les "
+"distributions d'une mesure connexe au sein de plusieurs groupes. "
+"La boîte au milieu met l'accent sur la moyenne, la médiane et les 2 quartiles intérieurs. Les moustaches "
+"autour de chaque boîte représentent le minimum, le maximum, l'étendue et les deux quartiles extérieurs."
 
 msgid "Altered"
-msgstr "Modifié"
+msgstr "Modifiés"
 
 msgid "Always filter main datetime column"
 msgstr "Toujours filtrer sur la colonne temporelle principale"
@@ -1621,7 +1617,7 @@ msgid ""
 "database."
 msgstr ""
 "Un moteur doit être fournit lorsque l'on passe des paramètres individuels"
-" à la base de données."
+" à une base de données."
 
 msgid "An error has occurred"
 msgstr "Une erreur est survenue"
@@ -1662,7 +1658,7 @@ msgid "An error occurred while creating the copy link."
 msgstr "Une erreur s'est produite durant la création du lien."
 
 msgid "An error occurred while creating the data source"
-msgstr "Une erreur s'est produite durant la création de la source de donnée"
+msgstr "Une erreur s'est produite durant la création de la source de données"
 
 msgid "An error occurred while creating the extension."
 msgstr "Une erreur s'est produite durant la création de la valeur."
@@ -1677,7 +1673,7 @@ msgid "An error occurred while deleting the extension."
 msgstr "Une erreur s'est produite durant la suppression de la valeur."
 
 msgid "An error occurred while deleting the value."
-msgstr "Une erreur s'est produite lors de la suppression de la valeur."
+msgstr "Une erreur s'est produite durant la suppression de la valeur."
 
 msgid ""
 "An error occurred while expanding the table schema. Please contact your "
@@ -1986,7 +1982,7 @@ msgid "Annotation layer opacity"
 msgstr "Opacité de la couche d'annotations"
 
 msgid "Annotation layer parameters are invalid."
-msgstr "Les paramètres de la couche d'annotations sont invalides."
+msgstr "Les paramètres de la couche d'annotations ne sont pas valides."
 
 msgid "Annotation layer stroke"
 msgstr "Trait de la couche d'annotations"
@@ -2016,7 +2012,7 @@ msgid "Annotation not found."
 msgstr "Annotation non trouvée."
 
 msgid "Annotation parameters are invalid."
-msgstr "Les paramètres d'annotation sont invalides."
+msgstr "Les paramètres d'annotation ne sont pas valides."
 
 msgid "Annotation source"
 msgstr "Source de l'annotation"
@@ -3137,7 +3133,7 @@ msgid "Chart owners"
 msgstr "Propriétaires du graphique"
 
 msgid "Chart parameters are invalid."
-msgstr "Les paramètres du graphique sont invalides."
+msgstr "Les paramètres du graphique ne sont pas valides."
 
 msgid "Chart properties"
 msgstr "Propriétés du graphique"
@@ -4382,7 +4378,7 @@ msgstr "Le tableau de bord [%s] a été créé et le graphique [%s] y a été aj
 msgid "Dashboard cannot be copied due to invalid parameters."
 msgstr ""
 "Le tableau de bord ne peut pas être copié en raison de paramètres "
-"invalides."
+"non valides."
 
 msgid "Dashboard cannot be favorited."
 msgstr "Le tableau de bord n'a pas pu être mis à jour."
@@ -4424,7 +4420,7 @@ msgid "Dashboard native filters could not be patched."
 msgstr "[CHEK] Le tableau de bord n'a pas pu être mis à jour."
 
 msgid "Dashboard parameters are invalid."
-msgstr "Les paramètres du tableau de bord sont invalides."
+msgstr "Les paramètres du tableau de bord ne sont pas valides."
 
 msgid "Dashboard properties"
 msgstr "Propriétés du tableau de bord"
@@ -4463,7 +4459,7 @@ msgid "Dashboards could not be created."
 msgstr "Les tableaux de bord n'ont pas pu être créés."
 
 msgid "Dashboards do not exist"
-msgstr "Le tableau de bord n'existe pas"
+msgstr "Les tableaux de bord n'existent pas"
 
 msgid "Dashed"
 msgstr "En pointillés"
@@ -4588,7 +4584,7 @@ msgid "Database not found."
 msgstr "Base de donnée non trouvée."
 
 msgid "Database parameters are invalid."
-msgstr "Les paramètres de base de données sont invalides."
+msgstr "Les paramètres de base de données ne sont pas valides."
 
 msgid "Database passwords"
 msgstr "Mots de passe de la base de données"
@@ -5992,7 +5988,7 @@ msgid ""
 "                                        please consider filtering those "
 "out"
 msgstr ""
-"Une entrée spatiale NULL invalide a été rencontrée,"
+"Une entrée spatiale NULL non valide a été rencontrée,"
 "                                         veuillez envisager de filtrer "
 "ces entrées"
 
@@ -6524,7 +6520,7 @@ msgid "Failed at retrieving results"
 msgstr "Échec lors de la récupération des résultats"
 
 msgid "Failed to apply theme: Invalid JSON"
-msgstr "Échec de l'application du thème : JSON invalide"
+msgstr "Échec de l'application du thème : JSON non valide"
 
 msgid "Failed to copy API key to clipboard"
 msgstr "Echec de la copie de la clé API vers le presse-papier"
@@ -6592,7 +6588,7 @@ msgid "Failed to save cross-filters setting"
 msgstr "Échec de la sauvegarde des options des filtres croisés"
 
 msgid "Failed to set local theme: Invalid JSON configuration"
-msgstr "Échec pour définir le thème local : configuration JSON invalide"
+msgstr "Échec pour définir le thème local : configuration JSON non valide"
 
 #, python-format
 msgid "Failed to set system dark theme: %s"
@@ -7035,7 +7031,7 @@ msgid "Forward values"
 msgstr "Valeurs à terme"
 
 msgid "Found invalid orderby options"
-msgstr "Options orderby invalides trouvées"
+msgstr "Options de tri non valides trouvées"
 
 msgid "Fraction digits"
 msgstr "Chiffres de fraction"
@@ -7621,13 +7617,13 @@ msgstr ""
 "'ocient://user:pass@host:port/database'."
 
 msgid "Invalid JSON"
-msgstr "JSON invalide"
+msgstr "JSON non valide"
 
 msgid "Invalid JSON configuration"
-msgstr "Configuration JSON invalide"
+msgstr "Configuration JSON non valide"
 
 msgid "Invalid JSON metadata"
-msgstr "Méta-données JSON invalides"
+msgstr "Méta-données JSON non valides"
 
 #, python-format
 msgid "Invalid SQL: %(error)s"
@@ -7638,10 +7634,10 @@ msgid "Invalid advanced data type: %(advanced_data_type)s"
 msgstr "Type avancé de données invalide : %(advanced_data_type)s"
 
 msgid "Invalid certificate"
-msgstr "Certificat invalide"
+msgstr "Certificat non valide"
 
 msgid "Invalid color"
-msgstr "Couleur invalide"
+msgstr "Couleur non valide"
 
 msgid ""
 "Invalid connection string, a valid string usually follows: "
@@ -7662,36 +7658,36 @@ msgstr ""
 " : 'postgresql://user:password@your-postgres-db/database'</p>"
 
 msgid "Invalid cron expression"
-msgstr "Expression CRON invalide"
+msgstr "Expression CRON non valide"
 
 #, python-format
 msgid "Invalid cumulative operator: %(operator)s"
 msgstr "Operateur cumulatif invalide : %(operator)s"
 
 msgid "Invalid currency code in saved metrics"
-msgstr "Code de devise invalide dans les métriques sauvegardés"
+msgstr "Code de devise non valide dans les métriques sauvegardés"
 
 msgid "Invalid date/timestamp format"
-msgstr "Format d'horodatage invalide"
+msgstr "Format d'horodatage non valide"
 
 msgid "Invalid executor type"
-msgstr "Type d'exécuteur invalide"
+msgstr "Type d'exécuteur non valide"
 
 msgid "Invalid expression"
-msgstr "Expression invalide"
+msgstr "Expression non valide"
 
 #, python-format
 msgid "Invalid filter operation type: %(op)s"
 msgstr "Type d'opération de filtrage invalide : %(op)s"
 
 msgid "Invalid formula expression"
-msgstr "Expression de la formule invalide"
+msgstr "Expression de la formule non valide"
 
 msgid "Invalid geodetic string"
 msgstr "Chaîne géodésique non valable"
 
 msgid "Invalid geohash string"
-msgstr "Chaîne geohash invalide"
+msgstr "Chaîne geohash non valide"
 
 msgid "Invalid input"
 msgstr "Saisie erronée"
@@ -7700,7 +7696,7 @@ msgid "Invalid lat/long configuration."
 msgstr "Configuration lat/long non valide."
 
 msgid "Invalid longitude/latitude"
-msgstr "Longitude/latitude invalide"
+msgstr "Longitude/latitude non valide"
 
 #, python-format
 msgid "Invalid metric object: %(metric)s"
@@ -7712,7 +7708,7 @@ msgstr "Fonction numpy invalide : %(operator)s"
 
 #, python-format
 msgid "Invalid options for %(rolling_type)s: %(options)s"
-msgstr "Options invalides pour %(rolling_type)s: %(options)s"
+msgstr "Options non valides pour %(rolling_type)s: %(options)s"
 
 msgid "Invalid permalink key"
 msgstr "Clé de liaison permanente non valide"
@@ -7727,18 +7723,18 @@ msgstr "Type de résultat invalide : %(result_type)s"
 
 #, python-format
 msgid "Invalid rolling_type: %(type)s"
-msgstr "Le rolling_type est invalide: %(type)s"
+msgstr "Le rolling_type est non valide: %(type)s"
 
 #, python-format
 msgid "Invalid spatial point encountered: %(latlong)s"
 msgstr "Point géographique invalide : %(latlong)s"
 
 msgid "Invalid state."
-msgstr "Etat invalide."
+msgstr "Etat non valide."
 
 #, python-format
 msgid "Invalid tab ids: %(tab_ids)s"
-msgstr "Identifiants d'onglet invalides : %(tab_ids)s"
+msgstr "Identifiants d'onglet non valides : %(tab_ids)s"
 
 msgid "Invalid username or password"
 msgstr "Le nom d'utilisateur ou le mot de passe est incorrect."
@@ -9045,7 +9041,7 @@ msgid "New dataset"
 msgstr "Nouvel ensemble de données"
 
 msgid "New dataset name"
-msgstr "Nom de l'ensemble de données"
+msgstr "Nouveau nom de l'ensemble de données"
 
 msgid "New header"
 msgstr "Nouvel en-tête"
@@ -9195,7 +9191,7 @@ msgstr ""
 "tableau de bord."
 
 msgid "No records found"
-msgstr "Aucun enregistrement n'a été trouvé"
+msgstr "Aucun enregistrement trouvé"
 
 msgid "No results"
 msgstr "Aucun résultat"
@@ -9317,10 +9313,10 @@ msgid "Not Time Series"
 msgstr "Pas de séries temporelles"
 
 msgid "Not a valid ZIP file"
-msgstr "Fichier ZIP invalide"
+msgstr "Fichier ZIP non valide"
 
 msgid "Not added to any dashboard"
-msgstr "Pas d'ajout à un tableau de bord"
+msgstr "Non ajouté à un tableau de bord"
 
 msgid "Not all required fields are complete. Please provide the following:"
 msgstr ""
@@ -9493,7 +9489,7 @@ msgid "Offline"
 msgstr "Hors ligne"
 
 msgid "On Grace"
-msgstr "Sur la grâce"
+msgstr "En période de grâce"
 
 msgid "On dashboards"
 msgstr "Sur les tableaux de bord"
@@ -10795,7 +10791,7 @@ msgid "Report Schedule not found."
 msgstr "Planification de rapport introuvable."
 
 msgid "Report Schedule parameters are invalid."
-msgstr "Les paramètres des planification de rapport sont invalides."
+msgstr "Les paramètres des planification de rapport ne sont pas valides."
 
 msgid "Report Schedule reached a working timeout."
 msgstr "La planification de rapport a dépassé le délai d'exécution."
@@ -11229,7 +11225,7 @@ msgid "SSH Tunnel not found."
 msgstr "Tunnel SSH introuvable."
 
 msgid "SSH Tunnel parameters are invalid."
-msgstr "Les paramètres du tunnel SSH sont invalides."
+msgstr "Les paramètres du tunnel SSH ne sont pas valides."
 
 msgid "SSH Tunneling is not enabled"
 msgstr "La tunnellisation SSH n'est pas activée"
@@ -11368,7 +11364,7 @@ msgid "Saved query not found."
 msgstr "Requête enregistrée introuvable."
 
 msgid "Saved query parameters are invalid."
-msgstr "Les paramètres des requêtes enregistrée sont invalides."
+msgstr "Les paramètres des requêtes enregistrée ne sont pas valides."
 
 msgid "Saving..."
 msgstr "Enregistrement..."
@@ -12032,7 +12028,7 @@ msgid "Semantic layer does not exist"
 msgstr "La couche sémantique n'existe pas"
 
 msgid "Semantic layer parameters are invalid."
-msgstr "Les paramètres de la couche sémantique sont invalides."
+msgstr "Les paramètres de la couche sémantique ne sont pas valides."
 
 msgid "Semantic layer type"
 msgstr "Type de couche sémantique"
@@ -13224,10 +13220,10 @@ msgid "Tag name"
 msgstr "Nom de la balise"
 
 msgid "Tag name is invalid (cannot contain ':')"
-msgstr "Le nom de la balise est invalide (ne peut pas contenir ':')"
+msgstr "Le nom de la balise est non valide (ne peut pas contenir ':')"
 
 msgid "Tag parameters are invalid."
-msgstr "Les paramètres de la balise sont invalides."
+msgstr "Les paramètres de la balise ne sont pas valides."
 
 msgid "Tag updated"
 msgstr "Balise mise à jour"
@@ -13278,7 +13274,7 @@ msgstr ""
 "d'arrêter la tâche n'a été enregistré."
 
 msgid "Task parameters are invalid."
-msgstr "Les paramètres de la tâche sont invalides."
+msgstr "Les paramètres de la tâche ne sont pas valides."
 
 msgid "Tasks"
 msgstr "Tâches"
@@ -13807,7 +13803,7 @@ msgid ""
 "%(key)s is invalid."
 msgstr ""
 "Le paramètre metadata_params dans Champ supplémentaire n'est pas "
-"correctement configuré. La clé %(key)s est invalide."
+"correctement configuré. La clé %(key)s est non valide."
 
 #, python-brace-format
 msgid ""
@@ -13815,7 +13811,7 @@ msgid ""
 "%{key}s is invalid."
 msgstr ""
 "Le paramètre metadata_params dans Champ supplémentaire n'est pas "
-"correctement configuré. La clé %{key}s est invalide."
+"correctement configuré. La clé %{key}s est non valide."
 
 msgid ""
 "The metadata_params object gets unpacked into the sqlalchemy.MetaData "
@@ -13914,7 +13910,7 @@ msgstr ""
 msgid "The password provided when connecting to a database is not valid."
 msgstr ""
 "Le mot de passe renseigné pour se connecter à une base de données est "
-"invalide."
+"non valide."
 
 msgid "The password reset was successful"
 msgstr "Le mot de passe a été réinitialisé avec succès."
@@ -14012,7 +14008,7 @@ msgid "The port is closed."
 msgstr "Le port est fermé."
 
 msgid "The port number is invalid."
-msgstr "Le numéro de port est invalide."
+msgstr "Le numéro de port est non valide."
 
 msgid "The primary metric is used to define the arc segment sizes"
 msgstr ""
@@ -14146,7 +14142,7 @@ msgstr ""
 "utilisé pour cette requête."
 
 msgid "The schema of the submitted payload is invalid."
-msgstr "Le schéma du contenu soumis est invalide."
+msgstr "Le schéma du contenu soumis est non valide."
 
 msgid "The schema was deleted or renamed in the database."
 msgstr "Le schéma a été supprimé ou renommé dans la base de données."
@@ -14309,7 +14305,7 @@ msgstr "L'utilisateur·rice a été sauvegardé·e avec succès."
 
 msgid "The user/password combination is not valid (Incorrect password for user)."
 msgstr ""
-"La combinaison utilisateur·rice/mot de passe est invalide (mot de passe "
+"La combinaison utilisateur·rice/mot de passe est non valide (mot de passe "
 "incorrect pour l'utilisateur·rice)."
 
 #, python-format
@@ -17763,7 +17759,7 @@ msgid "in order to run this operation."
 msgstr "pour pouvoir exécuter cette opération"
 
 msgid "invalid email"
-msgstr "email invalide"
+msgstr "email non valide"
 
 msgid "is"
 msgstr "est"
@@ -17991,11 +17987,11 @@ msgid ""
 "percentiles must be a list or tuple with two numeric values, of which the"
 " first is lower than the second value"
 msgstr ""
-"percentiles doit être une liste ou un tuple avec deux valeurs numériques,"
+"les centiles doivent être une liste ou un tuple avec deux valeurs numériques,"
 " dont la première est inférieure à la deuxième valeur"
 
 msgid "permalink state not found"
-msgstr "Etat du lien du rapport introuvable"
+msgstr "état du permalien non trouvé"
 
 msgid "pivoted_xlsx"
 msgstr "xlsx pivoté"
@@ -18004,16 +18000,16 @@ msgid "pixels"
 msgstr "pixels"
 
 msgid "previous calendar month"
-msgstr "Mois calendaire précédent"
+msgstr "Mois précédent"
 
 msgid "previous calendar quarter"
-msgstr "Trimestre calendaire précédent"
+msgstr "Trimestre précédent"
 
 msgid "previous calendar week"
-msgstr "Semaine calendaire précédente"
+msgstr "Semaine précédente"
 
 msgid "previous calendar year"
-msgstr "Année calendaire précédente"
+msgstr "Année précédente"
 
 msgid "provide authorization"
 msgstr "Autorisation requise"
@@ -18043,10 +18039,10 @@ msgid "reports"
 msgstr "rapports"
 
 msgid "restore zoom"
-msgstr "restaurer le zoom"
+msgstr "réinitialiser le zoom"
 
 msgid "right"
-msgstr "droit"
+msgstr "droite"
 
 msgid "rowlevelsecurity"
 msgstr "Sécurité d'accès par ligne (RLS)"
@@ -18064,15 +18060,15 @@ msgid "seconds"
 msgstr "secondes"
 
 msgid "series"
-msgstr "série"
+msgstr "séries"
 
 msgid ""
 "series: Treat each series independently; overall: All series use the same"
 " scale; change: Show changes compared to the first data point in each "
 "series"
 msgstr ""
-"série : traiter chaque série indépendamment; dans l'ensemble : toutes les"
-" séries utilisent la même échelle; changement : afficher les changements "
+"séries : traiter chaque série indépendamment; dans l'ensemble : toutes les"
+" séries utilisent la même échelle; changement : Afficher les changements "
 "par rapport au premier point de données de chaque série"
 
 msgid "sql"
@@ -18133,7 +18129,7 @@ msgid "text color"
 msgstr "Couleur textuelle"
 
 msgid "textarea"
-msgstr "textarea"
+msgstr "zone de texte"
 
 msgid "the Handlebars chart documentation"
 msgstr "la documentation du chart Handlebars"
@@ -18191,7 +18187,7 @@ msgid "view instructions"
 msgstr "voir les instructions"
 
 msgid "viz type"
-msgstr "type viz"
+msgstr "type de visualisation"
 
 msgid "was created"
 msgstr "a été créé"
@@ -18274,4 +18270,3 @@ msgstr "N°"
 #~ "\n"
 #~ "export const browserEmail: RegExp =\n"
 #~ "  /^[a-zA-Z0-9.!#$%&'*+/=?^_"
-
