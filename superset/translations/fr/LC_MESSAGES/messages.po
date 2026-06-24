@@ -1705,7 +1705,7 @@ msgstr ""
 #, python-format
 msgid "An error occurred while fetching %s values: %s"
 msgstr ""
-"Une erreur s'est produite lors de la récupération de %s valeurs de "
+"Une erreur s'est produite lors de l'extraction de %s valeurs de "
 "l'utilisateur·rice : %s"
 
 #, python-format
@@ -1839,7 +1839,7 @@ msgstr "Une erreur s'est produite lors de la récupération des données d'utili
 #, python-format
 msgid "An error occurred while fetching user values: %s"
 msgstr ""
-"Une erreur s'est produite lors de la récupération des valeurs de "
+"Une erreur s'est produite lors de l'extraction des valeurs de "
 "l'utilisateur·rice : %s"
 
 msgid "An error occurred while formatting SQL"
@@ -16616,7 +16616,7 @@ msgid "Whether to display the time range interactive selector"
 msgstr "Affichage du sélecteur interactif d'intervalle de temps"
 
 msgid "Whether to display the timestamp"
-msgstr "Affichage de l’horodatage"
+msgstr "Affichage de l'horodatage"
 
 msgid "Whether to display the tooltip labels."
 msgstr "Affichage de l'infobulle des étiquettes."
