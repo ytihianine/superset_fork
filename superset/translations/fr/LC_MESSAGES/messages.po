@@ -6745,7 +6745,7 @@ msgid "Filters by metrics"
 msgstr "Filtres par mesure"
 
 msgid "Filters for comparison must have a value"
-msgstr "Les filtres de comparaison doivent avoir une valeur"
+msgstr "Les filtres de comparaison doivent contenir une valeur"
 
 msgid "Filters for values equal to this exact value."
 msgstr "Filtres pour des valeurs égales à cette valeur exacte."
