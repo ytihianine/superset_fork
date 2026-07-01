@@ -552,7 +552,7 @@ msgid ""
 "\n"
 msgstr ""
 "-- Remarque: À moins que vous ne sauvegardiez votre requête, ces onglets "
-"ne persisteront PAS si vous effacez vos témoins ou si vous changez de "
+"ne persisteront PAS si vous effacez vos cookies ou si vous changez de "
 "navigateur.\n"
 "\n"
 
