@@ -6036,7 +6036,7 @@ msgid "Enter a new title for the tab"
 msgstr "Saisir un nouveau titre pour l'onglet"
 
 msgid "Enter a part of the object name"
-msgstr "Saisir un nom pour une partie de l'objet"
+msgstr "Saisir une partie du nom de l'objet"
 
 msgid "Enter alert name"
 msgstr "Saisir un nom pour l'alerte"
